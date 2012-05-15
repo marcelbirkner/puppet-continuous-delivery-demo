@@ -25,10 +25,6 @@ class mysql {
   }
 
 
-#  exec { "create-whorblehat-db":
-#     command => "/usr/bin/mysql -uroot -ppassword -e \"drop database if exists worblehat; create database worblehat; drop user 'worblehat'@'%'; flush privileges; create user worblehat@'%' identified by 'worblehat';grant all on worblehat.* to  worblehat@'%' WITH GRANT OPTION; flush privileges; drop user 'liquibase'@'%'; flush privileges; create user 'liquibase'@'%' identified by 'liquibase'; grant all on *.* to 'liquibase'@'%' WITH GRANT OPTION;flush privileges;\"",
-#    require => Service["mysqld"]
-#  }
 
 define  mysql::db() {
     include mysql
