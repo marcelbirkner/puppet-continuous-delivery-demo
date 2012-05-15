@@ -1,0 +1,18 @@
+These files are part of a continuous delivery pipeline demo I worked on. 
+You can find out more about the topic under the following URL's.
+
+http://blog.codecentric.de/en/2012/04/continuous-delivery-in-the-cloud-part1-overview/
+http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-2-getting-started-with-amazon-ec2/
+http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-3-configure-your-continuous-integration-server/
+...
+
+
+Sparse checkout from private Git repo
+
+git init
+git config core.sparsecheckout true
+echo ec2/puppet >> .git/info/sparse-checkout
+git remote add origin git@github.com:codecentric/ContinuousDeliveryDemo.git
+git pull origin master
+
+
