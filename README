@@ -1,9 +1,15 @@
 These files are part of a continuous delivery pipeline demo I worked on. 
 You can find out more about the topic under the following URL's.
 
-  http://blog.codecentric.de/en/2012/04/continuous-delivery-in-the-cloud-part1-overview/
+http://blog.codecentric.de/en/2012/04/continuous-delivery-in-the-cloud-part1-overview/
 
-  http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-2-getting-started-with-amazon-ec2/
+http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-2-getting-started-with-amazon-ec2/
   
-  http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-3-configure-your-continuous-integration-server/
+http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-3-configure-your-continuous-integration-server/
+
+http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-4-provisioning-your-test-staging-and-production-environments/
+
+http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-5-configure-your-continuous-delivery-pipeline/
+
+http://blog.codecentric.de/en/2012/06/continuous-delivery-in-the-cloud-part6-create-a-dashboard-of-your-system/
 
